@@ -1,0 +1,123 @@
+/* =================================
+  Base Element Styles
+==================================== */
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Varela Round', sans-serif;
+	line-height: 1.6;
+  color: white;
+}
+
+p {
+	font-size: .95em;
+	margin-bottom: 1.5em;
+	color: black;
+}
+
+h2,
+h3,
+a {
+	color: white;
+}
+
+h2,
+h3 {
+	margin-top: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+footer p {
+	color: lightgrey;
+}
+
+/* =================================
+  Base Layout Styles
+==================================== */
+
+.container {
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+.main-header {
+	text-align: center;
+	background: rgba(10,10,10,0.79);
+}
+
+.main-nav {
+text-align: center;
+	}
+
+	.main-nav li {
+		margin: auto;
+		width: 80%;
+	}
+
+		.main-footer {
+	padding: 1em 0;
+	background: rgba(10,10,10,0.79);
+  text-align: center;
+}
+
+/* =================================
+  Media queries
+==================================== */
+
+@media (min-width: 769px) {
+	.wrap {
+		min-height: calc(100vh - 167px);
+	}
+
+	body {
+		background-image: url('../images/background.jpg');
+	  background-size: cover;
+	}
+
+	.container {
+		width: 70%;
+		max-width: 1000px;
+		margin: 0 auto;
+	}
+
+	.name {
+		float: left
+	}
+
+	.main-nav {
+		float: right;
+		height: 150px;
+	}
+
+	.main-nav li {
+		text-align: center;
+		display: inline-block;
+		margin-left: 12px;
+		margin-right: 12px;
+		padding-top: 2em;
+		font-size: 1.5em;
+		height: 100px;
+		width: 100px;
+		border-top: 5px solid transparent;
+	}
+
+	.main-nav li:hover {
+		border-top: solid 5px white;
+	}
+
+	.main-header {
+		text-align: left;
+	}
+
+	.clearfix::after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+
+}
