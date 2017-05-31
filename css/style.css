@@ -86,7 +86,7 @@ footer p {
 
 	body {
 		background-image: url('../images/background.jpg');
-	  background-size: cover;
+		background-size: cover;
 	}
 
 	.wrap {
@@ -125,7 +125,7 @@ footer p {
 	}
 
 	.main-nav li:hover {
-		border-top: solid 5px white;
+		border-top: solid 3px white;
 		background-color: rgba(0, 0, 0, 0);
 	}
 
