@@ -121,12 +121,13 @@ footer p {
 		width: 100px;
 		border-radius: 0;
 		background-color: rgba(0,0,0,0);
-		border-top: 5px solid transparent;
+		border-top: 3px solid transparent;
+		transition: all 0.5s;
 	}
 
 	.main-nav li:hover {
 		border-top: solid 3px white;
-		background-color: rgba(0, 0, 0, 0);
+		background-color: rgba(0,0,0,0);
 	}
 
 	.main-header {
